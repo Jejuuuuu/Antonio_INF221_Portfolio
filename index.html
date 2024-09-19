@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonio Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/img/header_antonio.jpeg" alt="Axle Troy Antonio" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Axle Troy Antonio</h1>
+
+          <p class="title">Student developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mail.google.com/troyantonio32@gmail.com" class="contact-link">troyantonio32@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639667165963" class="contact-link">09667165963</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-06-12">June 12, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Lipa City, Batangas, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/axletroy.antonio" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.tiktok.com/@thatkidyort" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/thatkidyort/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+          As a third-year Bachelor of Science in Information Technology (BSIT) student at NU Lipa, I am motivated by a passion for technology and a desire to expand my understanding of the industry. I've spent a significant portion of my academic career developing a solid foundation in programming, networking, and software development. Every day presents fresh opportunity to explore the limitless possibilities that technology provides, and I actively seek challenges that will help me improve my talents. Being in my third year, I am more committed than ever to improving my skills and contributing to the IT community.
+          </p>
+
+          <p>
+            I'm still learning about many elements of technology, such as rising trends and mastering vital tools. While my adventure continues, I am dedicated to continual learning and improvement, recognizing that the IT industry is continuously changing. My experience at NU Lipa has given me with a helpful atmosphere in which to grow, and I am eager to explore how I can use my skills in real-world scenarios. I'm looking forward to developing my career and becoming a competent and effective IT expert.
+          </p>
+        </section>
+
+        <section class="blog-posts"></section>
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/Antonio_Activity1.krt.jpg" alt="Krita" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-09">Aug 9, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Krita</h3>
+
+                  <p class="blog-text">
+                    Logo of a Gym
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/Lab2.jpg" alt="Sharpness" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-20">Aug 20, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Dumbbell</h3>
+
+                  <p class="blog-text">
+                    Blur, Pixelize, Edge Detection, Oil Paint Designs on a Dumbbell
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/sketchpad.jpg" alt="Sketch Pad" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Drawing</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-13">Aug 13, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Drawing</h3>
+
+                  <p class="blog-text">
+                    Drawing of a signage in the bathroom of the clinic
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/Antonio_FlipBook_INF221.gif" alt="FLip Book" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Gif</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-22">Aug 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Flip Book</h3>
+
+                  <p class="blog-text">
+                    Flip Book of a Man Digging with 12 Frames 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/Antonio_Spiderman_lab4.gif" alt="Spider-Man" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-27">Aug 27, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Spider-Man</h3>
+
+                  <p class="blog-text">
+                    Pixel Frame by Frame drawing of Spider-Man
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/Antonio_Spiderman_Lab5-1.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-24">Sep 10, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Spider-Man: No Way Home</h3>
+
+                  <p class="blog-text">
+                    New Poster for the Movie Spider-Man: No Way Home
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/img/prenup.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Photo Shoot</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-11">Sep 11, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Prenup Photo Shoot</h3>
+
+                  <p class="blog-text">
+                    A Prenup School Activity in Different Locations
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+     
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
